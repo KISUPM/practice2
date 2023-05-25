@@ -8,8 +8,8 @@ function App() {
   return (
     <Box minH="100vh" background={"#1C1C1C "}>
       <Routes>
-        <Route path="/" element={<Prepare />} />
-        <Route path="/hirangana" element={<HiranMain />} />
+        <Route path="practice2/" element={<Prepare />} />
+        <Route path="practice2/hirangana" element={<HiranMain />} />
       </Routes>
     </Box>
   );
