@@ -17,7 +17,7 @@ export default function Prepare() {
             w="100%"
             colorScheme="teal"
             onClick={() => {
-              navigate("/hirangana");
+              navigate("./hirangana");
             }}
           >
             Practice Hirangana
@@ -26,7 +26,7 @@ export default function Prepare() {
             w="100%"
             colorScheme="teal"
             onClick={() => {
-              navigate("/katakana");
+              navigate("./katakana");
             }}
           >
             Practice Katakana
@@ -35,7 +35,7 @@ export default function Prepare() {
             w="100%"
             colorScheme="teal"
             onClick={() => {
-              navigate("/mixed");
+              navigate("./mixed");
             }}
           >
             Mixed
